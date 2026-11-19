@@ -1,0 +1,7 @@
+# Local-only sample: copy to application.properties and set environment variables.
+spring.application.name=smart-campus-hub
+server.port=8090
+spring.data.mongodb.uri=${MONGO_URI:mongodb://localhost:27017/smartcampus}
+jwt.secret=${JWT_SECRET}
+jwt.expiration=86400000
+app.mail.enabled=false
