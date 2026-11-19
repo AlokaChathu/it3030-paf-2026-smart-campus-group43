@@ -1,0 +1,11 @@
+
+
+# Security cleanup: local secrets and installed/generated files
+**/.env
+**/.env.*
+!**/.env.example
+**/node_modules/
+**/.vite/
+**/dist/
+**/target/
+**/src/main/resources/application.properties
